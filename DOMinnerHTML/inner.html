@@ -1,0 +1,64 @@
+<!-- document.body.textContent  is better than document.body.innerHTML  -->
+<!-- document.body.textContent  is better than document.body.innerHTML  -->
+<!-- document.body.textContent  is better than document.body.innerHTML  -->
+<!-- document.body.textContent  is better than document.body.innerHTML  -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>this is title</title>
+    <script>
+      setTimeout(() => {
+        document.body.innerHTML =
+          "<nav><ul><li>Home</li><li>Shop</li><li>About</li></ul></nav>";
+      }, 3000);
+    </script>
+  </head>
+  <body>
+    <h1>Welcome!</h1>
+  </body>
+</html>
+
+<!-- document.body.textContent  is better than document.body.innerHTML  -->
+<!-- document.body.textContent  is better than document.body.innerHTML  -->
+<!-- document.body.textContent  is better than document.body.innerHTML  -->
+
+<!-- Avoid using it -->
+<!-- Rarely will pass code/security reviews -->
+<!-- Depends on the use case, but there are better ways to do this -->
+
+<!-- /*
+    1. Create an HTML document that has the following
+       Elements:
+       - <head> tag with a <title> in it with some text
+       - <body> tag with:
+        - <h1> tag with some text in it
+        - div tag with a <p> tag in it
+          - Inside the <p> add some text
+          - Also add a <span> tag with some text
+
+    2. Open the file in your Browser and open the dev
+       tools alongside it and inside the console:
+
+    3. Change the <title> tag's text to something else
+
+    4. Change the innerHTML of the <div> tag to contain
+       an <article> tag with a <p> tag inside with some text
+*/ -->
+
+<!-- /*
+    1. Create an HTML document that has the following
+       Elements:
+       - <head> tag with a <title> in it with some text
+       - <body> tag with:
+        - <h1> tag with some text in it
+        - A Comment with some text inside it
+        - <p> with some text inside it
+
+    2. Open the file in your Browser and open the dev
+       tools alongside it and inside the console:
+
+    3. How would you change the text inside the <p> tag?
+
+    4. How would you change the Comment Node's text?
+*/ -->
